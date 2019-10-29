@@ -1,2 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSV Report</title>
 
+	<style type="text/css">
+
+		#jsonData {
+			width: 200px;
+			height: 100px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<form action="/upload" method="post">
+
+  	Data:<br>
+
+ 		<input id = "jsonData" type="text" name="data" placeholder="enter a json format data!"><br>
+
+  	<input type="submit" value="Submit">
+
+  	<!-- <input id = "jsonData" type="text" name="data" placeholder="enter a json format data!"><br> -->
+
+	</form>
+
+	<div id="report"></div>
+
+
+
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
 
